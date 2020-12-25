@@ -20,6 +20,11 @@ body{
 }
 
 /*NAV*/
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 .main-nav{
     display: flex;
     list-style: none;
@@ -60,8 +65,12 @@ a{
 
 }
 
-/*GRID*/
+.cover{
+    width: 30rem;
+}
 
+
+/*GRID*/
 .grid-wrapper{
     display: grid;
     grid-gap: 20px;
